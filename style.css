@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+body{
+   max-width: 100%;
+   max-height: 100%;
+   background-image: url(images/pattern-background-desktop.svg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
+section{
+    margin:100px auto 10px;
+	background-color: #fff;
+	max-width: 350px;
+	border-radius: 20px;
+	box-shadow: 0px 15px 200px 0px #94a5d1;
+	text-align: center;
+    font-size: 16px;
+}
+section img{
+    max-width: 350px;
+    max-height: 500px;
+    border-radius: 20px 20px 0 0;
+}
+h1{
+    padding-top: 15px;
+    font-weight: 900;
+    font-size: 25px;
+}
+p{
+    max-width: 280px; 
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.plan{
+    background-color: #f5f7ff;
+    width: 80%;
+    border-radius: 10px;
+    margin: 10px 35px;
+    display: flex;  
+}
+.plan img{
+    max-width: 40px;
+    max-height: 40px;
+    padding: 10px 0 0 10px;
+}
+.plan .one{
+    padding: 10px;
+}
+.plan .one span{
+    font-weight: 700;
+}
+.plan a{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+button{
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: #3829e0;
+    color: #fff;
+    box-shadow: 0px 10px 0px 0px #f5f7ff;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: #3e52a3; 
+}
